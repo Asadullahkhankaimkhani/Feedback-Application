@@ -4,7 +4,10 @@ import PropTypes from "prop-types";
 const RatingSelect = ({ select }) => {
   const [selected, setSelected] = useState(2);
 
-  const handleChange = (e) => {};
+  const handleChange = (e) => {
+    setSelected(+e.currentTarget.value);
+    select(+e.currentTarget.value);
+  };
 
   return (
     <ul className="rating">
