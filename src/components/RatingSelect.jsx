@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import PropTypes from "prop-types";
 
 const RatingSelect = ({ select }) => {
   const [selected, setSelected] = useState(2);
@@ -124,7 +123,5 @@ const RatingSelect = ({ select }) => {
     </ul>
   );
 };
-
-RatingSelect.propTypes = {};
 
 export default RatingSelect;
