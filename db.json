@@ -1,19 +1,14 @@
 {
   "feedback": [
     {
-      "id": 1,
-      "text": "John",
-      "rating": 10
+      "text": "new data updated",
+      "rating": 7,
+      "id": 1
     },
     {
-      "id": 2,
-      "text": "John",
-      "rating": 10
-    },
-    {
-      "text": "This is new Feedback",
+      "text": "how's the josh 1 ",
       "rating": 10,
-      "id": 3
+      "id": 2
     }
   ]
 }
